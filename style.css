@@ -104,3 +104,24 @@
     border-radius: 10px;
     margin-top: 10px; 
 }
+.call-to-action .container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/WhatsApp\ Image\ 2024-05-06\ à\ 08.31.45_fee3c82c.jpg") center center;
+    background-size: cover;
+    padding: 100px 60px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.call-to-action p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.call-to-action .play-btn {
+    width: 94px;
+    height: 94px;
+    margin-bottom: 20px;
+    background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
