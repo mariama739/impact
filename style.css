@@ -5,6 +5,14 @@
 .navbar{
     background-color: #008374;
 }
+#navbar{
+    position: sticky;
+     top: 0;
+    z-index: 10;
+ }
+.navbar-nav{
+    margin-left: 33%;
+}
 .orange{
     color: #f85a40;
 }
@@ -16,7 +24,7 @@
     background-color: #008374;
     height: 250px;
     border-radius: 10px;
-    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.068);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.11);
     position: relative;
     bottom: 100px;
 }
@@ -79,9 +87,6 @@
 .all1 {
     color: #008374;
 }
-/* .card-img-top:hover{
-   transform: translateY(1.1);
-} */
 .social{
     padding: 10px;
     font-size: 16px;
